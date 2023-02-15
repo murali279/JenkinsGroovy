@@ -1,6 +1,3 @@
-
-#!/usr/bin/env groovy
-
-def call() {
-  sh "HelloHeyNamaskar"
+def call(String name, String dayOfWeek) {
+  sh "echo Hello World ${name}. It is ${dayOfWeek}."
 }
